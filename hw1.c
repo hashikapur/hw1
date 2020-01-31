@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include "hw1.h"
 
+//local variables:
 static int I_have_written(){}
 static int the_code[3] = {0, 1, 2};
 static void that_you_needed(){}
 static void and_which(){}
 
+//global variables:
 void sides_and(){}
 void Forgive_me(){}
 
@@ -21,7 +23,7 @@ int main(int argc,char* argv[]){
   static int ridiculous[1] = {6};
   static int symbols[2];
 
-  printf("hkapur2");
+  printf("hkapur2"); //net id
 
   I_have_written();
   that_you_needed();
