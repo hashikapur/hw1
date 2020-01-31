@@ -2,7 +2,7 @@
 #include "hw1.h"
 
 static void I_have_written(){}
-static int the_code[3] = {1, 2, 3};
+static int the_code[3] = {0, 1, 2};
 static void that_you_needed(){}
 
 static void and_which(){}
@@ -17,9 +17,9 @@ void and_so_varied(){}
 
 int main(int argc,char* argv[]){
   // array in main will give .# in Name
-  static int to_compile[1] = {4};
-  static int has_a_bunch_of[1] = {5};
-  static int ridiculous[1] = {6};
+  static int to_compile[1] = {0};
+  static int has_a_bunch_of[1] = {1};
+  static int ridiculous[1] = {2};
   static int symbols[2];
 
   printf("ango8");
