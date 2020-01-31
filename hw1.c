@@ -1,42 +1,42 @@
-
 #include <stdio.h>
 #include "hw1.h"
 
-static int I_have_written(){
-	 return 0;
-}
-static int the_code[3]= {10,20,30};
-static int that_you_needed(){
-	static int to_compile = 100;
-	return to_compile + 10;
-}
+static void I_have_written(){}
+static int the_code[3] = {1, 2, 3};
+static void that_you_needed(){}
 
-static int and_which();
-int sides_and(){
-	return 0;
-}
+static void and_which(){}
+
+// global variables - removed "static"
+void sides_and(){}
+
+void Forgive_me(){}
+int they_are_arbitrary; // uninitialized global variable
+int so_random[2] = {1, 2};
+void and_so_varied(){}
+
 int main(int argc,char* argv[]){
-  printf("%s","hkapur2");
+  // array in main will give .# in Name
+  static int to_compile[1] = {4};
+  static int has_a_bunch_of[1] = {5};
+  static int ridiculous[1] = {6};
+  static int symbols[2];
+
+  printf("ango8");
+
+  I_have_written();
+  that_you_needed();
+
   and_which();
-  the_code[1] = 15; 
+
+  Forgive_me();
+  and_so_varied();
+
+  to_compile[1] = to_compile[1];
+  the_code[3] = the_code[2];
+  has_a_bunch_of[1] = has_a_bunch_of[1];
+  ridiculous[1] = ridiculous[1];
+  symbols[2] = symbols[2];
+
   return 0;
-}
-static int and_which(){
-        static int has_a_bunch_of = 400;
-        static int ridiculous = 500;
-        static double  symbols;
-        that_you_needed();
-        I_have_written();
-        return has_a_bunch_of + ridiculous;
-        return symbols = symbols + 1.0;
-}
-
-int Forgive_me(){
-	return 0;
-}
-
-int they_are_arbitrary;
-double so_random = 30.0;
-int and_so_varied(){
-	return 0;
 }
