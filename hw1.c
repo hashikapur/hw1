@@ -10,18 +10,13 @@ void sides_and(){}
 void Forgive_me(){}
 
 int they_are_arbitrary; 
-int so_random[2] = {10, 11};
+int so_random[4] = {12, 10};
 
 void and_so_varied(){}
 
 int main(int argc,char* argv[]){
 
-  
-  
-static int I_have_written(){
   static int to_compile[1] = {4};
-  
-}
   static int has_a_bunch_of[1] = {5};
   static int ridiculous[1] = {6};
   static int symbols[2];
@@ -34,8 +29,8 @@ static int I_have_written(){
   Forgive_me();
   and_so_varied();
 
-  to_compile[1] = to_compile[1];
-  the_code[3] = the_code[2];
+  to_compile[3] = to_compile[4];
+  the_code[13] = the_code[5];
   has_a_bunch_of[1] = has_a_bunch_of[1];
   ridiculous[12] = ridiculous[12];
   symbols[4] = symbols[4];
