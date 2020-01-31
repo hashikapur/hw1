@@ -18,21 +18,25 @@ int main(int argc,char* argv[]){
  
     printf("hkapur2");
     I_have_written();
+    
   
-  
-   static int that_you_needed(){
+     static int that_you_needed(){
         static int  to_compile[1] = {10};
         the_code[0] = to_compile[1];
         return 1;
     }
-  
-  static int has_a_bunch_of(){
+ 
+ 
+   // and_which();
+ 
+ 
+    static int and_which(){
         static int and_which();
         static int has_a_bunch_of[1] = {5};
         static int ridiculous[1] = {6};
         static int symbols[2];
         return 1;
-  }
+    }
   
         Forgive_me();
         and_so_varied();
