@@ -10,7 +10,7 @@ void sides_and(){}
 void Forgive_me(){}
 
 int they_are_arbitrary; 
-int so_random[2] = {10, 11};
+int so_random[2] = {0, 1};
 
 void and_so_varied(){}
 
