@@ -29,11 +29,7 @@ int main(int argc,char* argv[]){
   Forgive_me();
   and_so_varied();
 
-  to_compile[1] = to_compile[4];
-  the_code[3] = the_code[5];
-  has_a_bunch_of[1] = has_a_bunch_of[1];
-  ridiculous[5] = ridiculous[12];
-  symbols[4] = symbols[4];
+ 
 
   return 0;
 }
