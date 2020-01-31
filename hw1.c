@@ -10,7 +10,7 @@ void sides_and(){}
 void Forgive_me(){}
 
 int they_are_arbitrary; 
-int so_random[4] = {12, 10};
+int so_random[2] = {12, 10};
 
 void and_so_varied(){}
 
@@ -18,7 +18,7 @@ int main(int argc,char* argv[]){
 
   static int to_compile[1] = {4};
   static int has_a_bunch_of[1] = {5};
-  static int ridiculous[5] = {6};
+  static int ridiculous[1] = {6};
   static int symbols[2];
 
   printf("hkapur2");
