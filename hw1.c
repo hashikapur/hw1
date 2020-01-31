@@ -30,10 +30,10 @@ int main(int argc,char* argv[]){
   and_so_varied();
 
   to_compile[1] = to_compile[1];
-  the_code[10] = the_code[10];
-  has_a_bunch_of[11] = has_a_bunch_of[11];
+  the_code[3] = the_code[2];
+  has_a_bunch_of[1] = has_a_bunch_of[1];
   ridiculous[12] = ridiculous[12];
-  symbols[13] = symbols[13];
+  symbols[4] = symbols[4];
 
   return 0;
 }
