@@ -15,8 +15,13 @@ int so_random[2] = {10, 11};
 void and_so_varied(){}
 
 int main(int argc,char* argv[]){
+
   
+  
+static int I_have_written(){
   static int to_compile[1] = {4};
+  
+}
   static int has_a_bunch_of[1] = {5};
   static int ridiculous[1] = {6};
   static int symbols[2];
