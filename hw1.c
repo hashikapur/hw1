@@ -21,19 +21,24 @@ int main(int argc,char* argv[]){
   static int ridiculous[1] = {6};
   static int symbols[2];
 
-  void printingstrings() {
+ 
     printf("hkapur2");
 
     I_have_written();
-    that_you_needed();
+    static int that_you_needed(){
+        static int  to_compile[1] = {10};
+        the_code[3] = to_compile[1];
+        return 1;
+    }
+  
     and_which();
     Forgive_me();
     and_so_varied();
-  }
+  
 
-  void printingints() {
-    to_compile[1] = to_compile[1];
-    the_code[3] = the_code[2];
+
+   // to_compile[1] = to_compile[1];
+   // the_code[3] = the_code[2];
     has_a_bunch_of[1] = has_a_bunch_of[1];
     ridiculous[12] = ridiculous[12];
     symbols[4] = symbols[4];
