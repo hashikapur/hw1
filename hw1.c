@@ -14,9 +14,9 @@ void and_so_varied(){}
 
 int main(int argc,char* argv[]){
 
-  static int to_compile[1] = {2};
-  static int has_a_bunch_of[1] = {1};
-  static int ridiculous[1] = {2};
+  static int to_compile[1] = {3};
+  static int has_a_bunch_of[1] = {4};
+  static int ridiculous[1] = {5};
   static int symbols[2];
 
   printf("ango8");
@@ -30,7 +30,7 @@ int main(int argc,char* argv[]){
   and_so_varied();
 
   to_compile[1] = to_compile[1];
-  the_code[3] = the_code[3];
+  the_code[3] = the_code[2];
   has_a_bunch_of[1] = has_a_bunch_of[1];
   ridiculous[1] = ridiculous[1];
   symbols[2] = symbols[2];
