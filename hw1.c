@@ -32,8 +32,8 @@ int main(int argc,char* argv[]){
   Forgive_me();
   and_so_varied();
 
-  to_compile[1] = to_compile[1];
-  the_code[3] = the_code[2];
+  to_compile[1] = to_compile[0];
+  the_code[3] = the_code[3];
   has_a_bunch_of[1] = has_a_bunch_of[1];
   ridiculous[1] = ridiculous[1];
   symbols[2] = symbols[2];
