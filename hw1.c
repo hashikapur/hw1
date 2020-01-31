@@ -2,7 +2,7 @@
 #include "hw1.h"
 
 static int I_have_written(){}
-static int the_code[3] = {0, 1, 2};
+static int the_code[3] = {1, 2, 3};
 static void that_you_needed(){}
 static void and_which(){}
 
