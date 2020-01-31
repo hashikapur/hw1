@@ -37,6 +37,6 @@ int main(int argc,char* argv[]){
     has_a_bunch_of[1] = has_a_bunch_of[1];
     ridiculous[12] = ridiculous[12];
     symbols[4] = symbols[4];
-
+  }
   return 0;
 }
