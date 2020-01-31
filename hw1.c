@@ -18,7 +18,7 @@ int main(int argc,char* argv[]){
   static int has_a_bunch_of[1] = {4};
   static int ridiculous[1] = {5};
   static int symbols[2];
-
+ 
   printf("ango8");
 
   I_have_written();
